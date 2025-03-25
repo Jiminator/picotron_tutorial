@@ -1,0 +1,17 @@
+job is starting on gpua027.delta.ncsa.illinois.edu
+Tokens per step: 4.096K
+[rank 0] Step: 1, Loss: 10.9922, Global batch size (with seq_len): 4.096K, Tokens/s: 1633..978T, Tokens/s/GPU: 408.49.459T, Tokens: 4.096K/40.960K, Memory usage: 1.53GB
+[rank 0] Step: 2, Loss: 9.2500, Global batch size (with seq_len): 4.096K, Tokens/s: 4460..683T, Tokens/s/GPU: 1115..170T, Tokens: 8.192K/40.960K, Memory usage: 1.76GB
+[rank 0] Step: 3, Loss: 8.8828, Global batch size (with seq_len): 4.096K, Tokens/s: 4251..169T, Tokens/s/GPU: 1062.7.924T, Tokens: 12.288K/40.960K, Memory usage: 1.81GB
+[rank 0] Step: 4, Loss: 8.5703, Global batch size (with seq_len): 4.096K, Tokens/s: 4423..067T, Tokens/s/GPU: 1105.7.667T, Tokens: 16.384K/40.960K, Memory usage: 1.81GB
+[rank 0] Step: 5, Loss: 8.0352, Global batch size (with seq_len): 4.096K, Tokens/s: 4359..975T, Tokens/s/GPU: 1089.9.939T, Tokens: 20.480K/40.960K, Memory usage: 1.81GB
+[rank 0] Step: 6, Loss: 7.6875, Global batch size (with seq_len): 4.096K, Tokens/s: 4338..766T, Tokens/s/GPU: 1084..691T, Tokens: 24.576K/40.960K, Memory usage: 1.81GB
+[rank 0] Step: 7, Loss: 7.3945, Global batch size (with seq_len): 4.096K, Tokens/s: 4375..838T, Tokens/s/GPU: 1093.9.595T, Tokens: 28.672K/40.960K, Memory usage: 1.81GB
+[rank 0] Step: 8, Loss: 6.9766, Global batch size (with seq_len): 4.096K, Tokens/s: 4336..19T, Tokens/s/GPU: 1084.0.497T, Tokens: 32.768K/40.960K, Memory usage: 1.81GB
+[rank 0] Step: 9, Loss: 6.7969, Global batch size (with seq_len): 4.096K, Tokens/s: 4273.2.506T, Tokens/s/GPU: 1068.3.126T, Tokens: 36.864K/40.960K, Memory usage: 1.81GB
+[rank 0] Step: 10, Loss: 6.5859, Global batch size (with seq_len): 4.096K, Tokens/s: 4325..529T, Tokens/s/GPU: 1081..382T, Tokens: 40.960K/40.960K, Memory usage: 1.81GB
+Tokens per step: 16.384K
+[rank 0] Step: 1, Loss: 11.0234, Global batch size (with seq_len): 16.384K, Tokens/s: 13137..801T, Tokens/s/GPU: 3284..450T, Tokens: 16.384K/40.960K, Memory usage: 5.38GB
+[rank 0] Step: 2, Loss: 9.3203, Global batch size (with seq_len): 16.384K, Tokens/s: 23397..926T, Tokens/s/GPU: 5849..481T, Tokens: 32.768K/40.960K, Memory usage: 5.45GB
+[rank 0] Step: 3, Loss: 8.9766, Global batch size (with seq_len): 16.384K, Tokens/s: 23070..22T, Tokens/s/GPU: 5767..557T, Tokens: 49.152K/40.960K, Memory usage: 5.45GB
+Job completed. Duration: 0h 3m 59s

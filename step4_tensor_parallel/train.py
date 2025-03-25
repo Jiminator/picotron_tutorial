@@ -95,6 +95,9 @@ if __name__ == "__main__":
     torch.cuda.set_device(local_rank)
     device = torch.device("cuda", local_rank)
     dtype = torch.bfloat16
+    print("Local Rank:", local_rank)
+    print("Global Rank:",global_rank)
+    print("World Size:",world_size)
 
     dist.init_process_group(rank=global_rank, world_size=world_size, backend=backend, init_method=f"env://", timeout=datetime.timedelta(minutes=2))
     setup_process_group_manager(dp_size=args.dp_size, pp_size=args.pp_size, tp_size=args.tp_size)
